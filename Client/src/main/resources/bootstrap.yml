@@ -8,3 +8,13 @@ spring:
             profile: dev
             uri: http://localhost:8888/
             label: master
+            discovery:
+                # 从配置中心读取文件
+                enabled: true
+                # 配置中心的service-id,即服务名
+                service-id: config-server
+
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8889/eureka/
