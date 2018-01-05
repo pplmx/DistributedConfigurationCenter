@@ -9,6 +9,4 @@ spring:
                 git:
                     uri: https://github.com/mystic-cg/SpringCloudConfig
                     search-paths: respo
-                    username:
-                    password:
             label: master
