@@ -13,7 +13,12 @@ spring:
                 enabled: true
                 # 配置中心的service-id,即服务名
                 service-id: config-server
-
+    rabbitmq:
+        host: localhost
+        port: 5672
+management:
+    security:
+      enabled: false
 eureka:
     client:
         serviceUrl:
